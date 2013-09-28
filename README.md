@@ -1,11 +1,6 @@
 Sample PHP App
 ==============
 
-Important
----------
-This sample app is still in construction. It will be available soon.
-
-
 This is a sample app for the [Tienda Nube/Nuvem Shop API](https://github.com/TiendaNube/api-docs) using the official [SDK for PHP](https://github.com/TiendaNube/tiendanube-php-sdk).
 
 This app was made using [Laravel](http://laravel.com/). Be sure to check [their documentation](laravel.com/docs).
