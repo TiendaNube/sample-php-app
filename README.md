@@ -33,10 +33,10 @@ php artisan migrate
 
 Then add your app_id and app_secret to `app/config/tiendanube.php`. You might also want to change the `auth` filter in `app/filters.php` to use the login URL in Spanish or Portuguese.
 
-Now you can test your app! Just set your redirect_uri to http://localhost:8000/auth and run a PHP server:
+Now you can test your app! Just set your redirect_uri to `http://localhost:8000/auth` and run a PHP server:
 
 ```sh
 php artisan serve
 ```
 
-When you visit http://localhost:8000 you will be taken to Tienda Nube/Nuvem Shop's login page. When you log into your store, you will be prompted to install your app. Install it and the provided auth route will take care of obtaining and storing an access token.
+When you visit [http://localhost:8000](http://localhost:8000) you will be taken to Tienda Nube/Nuvem Shop's login page. Log into your store and you will be prompted to install your app. Install it and the provided auth route will take care of obtaining and storing an access token.
