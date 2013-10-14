@@ -16,7 +16,7 @@ Then, simply run the following command:
 composer create-project tiendanube/sample-php-app sample-app --prefer-dist
 ```
 
-Alternatively, you may download the [contents of this repository](https://github.com/TiendaNube/tiendanube-php-sdk/archive/master.zip) and run `composer install` from your project's root directory.
+Alternatively, you may download the [contents of this repository](https://github.com/TiendaNube/sample-php-app/archive/master.zip) and run `composer install` from your project's root directory.
 
 Configuration
 -------------
